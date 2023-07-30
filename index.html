@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Tính điểm ĐH khối D</h1>
+    <div >
+        <p>Môn Toán <span> <input type="textbox" id="toan"> </span></p>
+        <p>Môn Văn  <span> <input type="textbox" id="van">  </span></p>
+        <p>Môn Anh  <span> <input type="textbox" id="anh">  </span></p>
+ </div>
+    <p>Khu vực  <span><select  id="khuvuc">
+        <option value="KV1">KV1</option>
+        <option value="KV2">KV2</option>
+        <option value="KV2-NT">KV2-NT</option>
+        <option value="KV3">KV3</option>
+      </select></span></p>
+
+<input type="button" value="Tính điểm" onclick="add()">
+<p>Tổng điểm ĐH của khối D của bạn là: <span id="diemdh" ></span></p>
+
+</body>
+</html>
